@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Вступление в ОПГ (потом в тюрьму)</title>
+	</head>
+	<body>
+		<form class="form">
+			<div class="container-img">
+				<img
+					width="80px"
+					height="80px"
+					src="./images/roza-vetrov.png"
+					alt="Роза ветров"
+				/>
+				<img
+					width="250px"
+					height="80px"
+					src="./images/title.svg"
+					alt="Надпись"
+				/>
+				<img
+					width="80px"
+					height="80px"
+					src="./images/roza-vetrov.png"
+					alt="Роза ветров"
+				/>
+			</div>
+			<fieldset class="fieldset">
+				<legend class="legend">Заполняй анкету, браток</legend>
+				<label class="label" for="name">Ваше имя</label>
+				<input
+					class="input"
+					type="text"
+					name="name"
+					id="name"
+					placeholder="Имя"
+					required
+				/>
+				<label class="label" for="username">Ваша погремуха (кличка)</label>
+				<input
+					class="input"
+					type="text"
+					name="username"
+					id="username"
+					placeholder="Погремуха (кличка)"
+					required
+				/>
+				<label class="label" for="subgroup">Кто по масти</label>
+				<input
+					class="input"
+					type="text"
+					name="subgroup"
+					id="subgroup"
+					placeholder="Блатной / мужик / козел / опущенный"
+					required
+				/>
+				<label class="label" for="name">Сколько ходок</label>
+				<input
+					class="input"
+					type="number"
+					name="age"
+					id="age"
+					placeholder="Количество ходок (срок)"
+					required
+				/>
+				<label class="label" for="name">Контактный номер телефона</label>
+				<input
+					class="input"
+					type="tel"
+					name="number"
+					id="number"
+					placeholder="+7-900-000-00-00"
+					required
+				/>
+			</fieldset>
+			<fieldset class="fieldset">
+				<label class="label" for="message">Чего по жизни хочешь</label>
+				<textarea
+					class="textarea"
+					name="message"
+					id="message"
+					placeholder="Справедливости / мира / любви / добра / своё (опиши)"
+				></textarea>
+				<label class="label checkbox-label" for="checkbox">
+					<input
+						class="checkbox"
+						type="checkbox"
+						name="checkbox"
+						id="checkbox"
+						required
+					/>
+					<span class="checkbox-text">Фарту масти</span>
+				</label>
+			</fieldset>
+			<button class="button">Отправить анкету</button>
+			<div container-bottom>
+				<p class="bottom-text">
+					Любви меня как роза воду, а я тебя как вор свободу &#169; "Джем"
+					22.10.01
+				</p>
+			</div>
+		</form>
+	</body>
+</html>
