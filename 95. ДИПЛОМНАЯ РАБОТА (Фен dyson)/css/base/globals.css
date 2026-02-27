@@ -1,0 +1,57 @@
+.page {
+	font-family: var(--font-family);
+	font-weight: 400;
+	color: #000;
+}
+
+.page__body {
+	min-width: 375px;
+	background-color: #fff;
+}
+
+.container {
+	max-width: 1360px;
+	width: 100%;
+	margin-inline: auto;
+}
+
+@media (width > 768px) {
+	.container {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+@media (width <= 768px) {
+	.container {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+}
+
+@media (width <= 460px) {
+	.container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+.other-color {
+	color: #c5358c;
+}
+
+button {
+	transition: transform 0.3s ease;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+a {
+	transition: transform 0.3s ease;
+}
+
+a:hover {
+	transform: scale(1.1);
+}
